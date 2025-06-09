@@ -2287,3 +2287,9 @@ button,
   display: block;
   margin: 0 auto;
 }
+
+#banner {
+  align-items: flex-start;  /* 중앙정렬 대신 위쪽 정렬 */
+  height: auto;
+  min-height: auto;
+}
