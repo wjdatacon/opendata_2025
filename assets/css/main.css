@@ -2273,11 +2273,17 @@ button,
     padding-top: 0; }
 
     
+#poster-image {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
 #poster-image img {
   object-fit: contain;
-  max-width: 500px;
   width: 100%;
   height: auto;
+  max-width: 500px; /* 필요 시 조정 */
   display: block;
   margin: 0 auto;
 }
